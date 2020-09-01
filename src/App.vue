@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <TaskMaster />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TaskMaster from "./components/Task/Master.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    TaskMaster,
+  },
+};
 </script>
